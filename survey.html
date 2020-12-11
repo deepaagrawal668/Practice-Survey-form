@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short survey form for practice</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <header id="heading" class="heading">
+            <h1 id="title" class="heading">Survey Form</h1>
+            <p id="discription" class="heading">Thank you taking out your precious time for filling this survey form..:)</p>
+        </header>
+        <form id="form-tag">
+            <div id="form" class="form">
+                <label id="name-label" for="name" class="form-label">
+                    Name
+                </label>
+                <input id="name" class="form-input" placeholder="Enter your name" type="name" required>
+            </div>
+            <div id="email" class="form-group">
+                <label id="email-label" for="email" class="form-label">
+                    Email
+                </label>
+                <input id="email" class="form-input" placeholder="Enter your email" type="email" required>
+            </div>
+            <div id="age" class="form-group">
+                <label id="age-label" for="age" class="form-label">Age(Optional)</label>
+                <input id="age" class="form-input" placeholder="Enter your age" type="number" min="0" max="99">
+            </div>
+            <div id="role" class="form-group">
+                What is your current status?<br>
+                <select id="select">
+                    <option disabled selected value>Select the option</option>
+                    <option>Student</option>
+                    <option>Business Man</option>
+                    <option>Home maker</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div id="rate" class="form-group">
+                What is your opinion for the webpage?<br><br>
+                <input id="rate" class="rate" type="radio" name="r">Mast hai
+                <input id="rate" class="rate" type="radio" name="r">Acchi hai
+                <input id="rate" class="rate" type="radio" name="r">Thik hai
+                <input id="rate" class="rate" type="radio" name="r">Aur acchi ho sakti hai
+            </div>
+            <div id="Message" class="form-group"><br>
+                Message<br>
+                <textarea placeholder="Enter your meassage here"></textarea>
+            </div>
+            <div id="caution">
+                This is only the front end part as the backend process is not done please take the screen short of this page beforing submitting and send it to me on my whatsapp number.
+                
+            </div>
+            <div id="Submit" class="Submit">
+                <input id="submit" type="submit">
+            </div>
+                
+           
+        </form>
+        
+    </div>
+</body>
+</html>
